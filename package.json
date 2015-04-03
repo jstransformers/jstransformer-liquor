@@ -1,0 +1,27 @@
+{
+  "name": "jstransformer-liquor",
+  "version": "0.0.0",
+  "description": "A transformer that compiles and renders liquor templates.",
+  "keywords": [
+    "jstransformer",
+    "liquor"
+  ],
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "jstransformer": "0.0.1",
+    "testit": "^2.0.2"
+  },
+  "scripts": {
+    "test": "node test",
+    "coverage": "istanbul cover test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-liquor.git"
+  },
+  "author": "Your Name <email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "liquor": "0.0.5"
+  }
+}
