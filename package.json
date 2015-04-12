@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-liquor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A transformer that compiles and renders liquor templates.",
   "keywords": [
     "jstransformer",
@@ -8,7 +8,6 @@
   ],
   "devDependencies": {
     "istanbul": "^0.3.5",
-    "jstransformer": "0.0.1",
     "testit": "^2.0.2"
   },
   "scripts": {
