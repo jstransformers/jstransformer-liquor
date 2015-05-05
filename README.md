@@ -1,33 +1,25 @@
-# boilerplates
+# jstransformer-liquor
 
-This is a boilerplate for new transformers.
+[Liquor](https://github.com/chjj/liquor) support for [JSTransformers](https://github.com/jstransformers).
 
-What you need to do:
-
-1. Add your name to `LICENSE` and `package.json`
-2. Activate Travis CI and Coveralls.
-3. Update module name in `package.json` and `README.md`
-4. Let the fun begin!
-
-# jstransformer-foo
-
-Transformer that converts a string to foo.
-
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-foo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-foo)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-foo/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-foo?branch=master)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-foo.svg)](https://www.npmjs.org/package/jstransformer-foo)
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-liquor/master.svg)](https://travis-ci.org/jstransformers/jstransformer-liquor)
+[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-liquor/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-liquor?branch=master)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-liquor.svg)](https://www.npmjs.org/package/jstransformer-liquor)
 
 ## Installation
 
-    npm install jstransformer-foo
+    npm install jstransformer-liquor
 
 ## API
 
 ```js
-var foo = require('jstransformer')(require('jstransformer-foo'))
+var liquor = require('jstransformer')(require('jstransformer-liquor'))
+var locals = {
+  name: "World"
+}
 
-foo.render('blah').body
-//=> 'blah'
+liquor.render('Hello, #{this.name}!', locals).body
+//=> 'Hello, World!'
 ```
 
 ## License
