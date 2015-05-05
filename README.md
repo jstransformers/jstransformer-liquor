@@ -18,7 +18,7 @@ var locals = {
   name: "World"
 }
 
-liquor.render('Hello, #{this.name}!', locals).body
+liquor.render('Hello, #{name}!', locals).body
 //=> 'Hello, World!'
 ```
 
