@@ -7,7 +7,7 @@
     "liquor"
   ],
   "devDependencies": {
-    "istanbul": "^0.3.5",
+    "istanbul": "^0.4.0",
     "jstransformer": "0.0.1",
     "testit": "^2.0.2"
   },
