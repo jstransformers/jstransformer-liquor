@@ -8,7 +8,7 @@
   ],
   "devDependencies": {
     "istanbul": "^0.3.5",
-    "jstransformer": "0.0.3",
+    "jstransformer": "0.0.4",
     "testit": "^2.0.2"
   },
   "scripts": {
