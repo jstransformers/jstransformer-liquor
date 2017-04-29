@@ -1,5 +1,7 @@
 # jstransformer-liquor
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-liquor.svg)](https://greenkeeper.io/)
+
 [Liquor](https://github.com/chjj/liquor) support for [JSTransformers](https://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-liquor/master.svg)](https://travis-ci.org/jstransformers/jstransformer-liquor)
